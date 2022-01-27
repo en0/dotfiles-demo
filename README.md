@@ -45,7 +45,6 @@ Now, we can verify dotfiles is ready to be used.
 ## Install NeoVim
 
 ```bash
-./dotfiles.sh install fzf
 ./dotfiles.sh install nvim
 source ~/.dotfiles.env
 ```
@@ -166,8 +165,7 @@ i3:
 Go back to the terminal and install the new hardware profile and i3 configs.
 
 ```bash
-./dotfiles.sh install hw-demo
-./dotfiles.sh install i3
+./dotfiles.sh install hw-demo i3
 ```
 
 You should see the screen flicker and polybar should be at the top.
