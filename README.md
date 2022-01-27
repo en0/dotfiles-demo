@@ -7,7 +7,7 @@ This is a walk-through of how I setup my development environment.
 First, lets get an ubuntu image up so we can all start from the same page.
 
 ```bash
-vagrant up && vagrant halt && vagrant resume
+vagrant up && vagrant halt && vagrant up
 ```
 
 Login and get thought the ubuntu startup stuff and set your screen resolution to something
